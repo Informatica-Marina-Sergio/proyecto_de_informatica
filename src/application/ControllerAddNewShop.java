@@ -41,7 +41,7 @@ public class ControllerAddNewShop {
 	private Label subtitle;
 
 	@FXML
-	private GridPane grdAddSchedule;
+	private GridPane grdAddShop;
 
 	@FXML
 	private Label lblName;
@@ -203,7 +203,7 @@ public class ControllerAddNewShop {
 			});
 		});
 
-		grdAddSchedule.add(text, 1, 1);
+		grdAddShop.add(text, 1, 1);
 	}
 
 	boolean checkAllFields() {
